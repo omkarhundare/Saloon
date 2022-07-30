@@ -1,0 +1,69 @@
+@media only screen and (max-width: 750px){
+     
+
+    .banner-text h1 {
+        font-size: 44px;
+    }    
+    .banner-text {
+      padding: 60px;
+      padding-top: 250px;
+    }
+    .banner-btn a {
+        width: 128px;
+        margin: 3px 0px;
+        padding: 5px 0;
+        /* display: block;
+        margin: 20px auto; */
+    }
+    .banner-btn {
+        margin: 25px auto 0;
+    }
+    /* feature section  */
+
+    .feature-text h1{
+        font-size: 35px;
+      }
+      .feature{
+        flex-basis: 100%;
+        
+      }
+      .feature-img{
+         flex-basis: 100%;
+      }
+      .feature-img img{
+        width: 100%;
+      
+      }
+      /* service section  */
+
+      .single-service{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+      }
+      .service-desc p{
+        font-size: 12px;
+      }
+      hr{
+        margin: 5px auto;
+
+      }
+      .single-service:hover .service-desc{
+        bottom: 25% !important;
+      }
+
+      /* testimonial section  */
+
+      .testimonal-col{
+        flex-basis: 100%;
+      }
+      /* footer section  */
+      .footer-left, .footer-right{
+        flex-basis: 100%;
+      }
+      .footer-right {
+        text-align: left;
+    }
+    .footer-img{
+        top: 25%;
+    }
+}
